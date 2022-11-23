@@ -8,7 +8,7 @@ export default function LandingPage() {
                         <p>Download a STATIC and share your top Spotify tracks with the world</p>
                     </div>
                 </div>
-                <a href='http://localhost:5497/ws/authorize'>
+                <a href='http://localhost:5497/authorize'>
                     <button className='bttn'>LOGIN</button>
                 </a>
                 <p></p>
