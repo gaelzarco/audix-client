@@ -39,7 +39,7 @@ export default function Recent() {
                         })
                     ) : (
                         <div className='spinner-container'>
-                            <h3 className='text' style={{color: 'rgb(255, 255, 255, 0.75)'}}>No recent tracks</h3>
+                            <h3 className='title' style={{color: 'rgb(255, 255, 255, 0.75)'}}>No recent tracks</h3>
                         </div>
                     )}
                 </div>
