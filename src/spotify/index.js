@@ -15,7 +15,7 @@ const getLocalRefreshToken = () => window.localStorage.getItem('spotify_refresh_
 
 const refreshAccessToken = () => {
     try {
-        axios.get(`https://audix-server.up.railway.app/refresh_token?refresh_token=${getLocalRefreshToken()}`)
+        axios.get(`https://audix-server.vercel.app/refresh_token?refresh_token=${getLocalRefreshToken()}`)
         .then(res => setLocalAccessToken(res.data.access_token))
         .then(() => window.location.reload())
     } catch (e) {
